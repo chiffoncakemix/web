@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+/* deg = 角度 */
+.img:hover{
+    /*360度回転*/
+    /*transform: rotate(360deg);*/
+    transform:rotate(10deg);
+    /* Xなら右に150px Yなら下に150px移動*/
+    /*transform: translateX(150px);*/
+    transition: transform 1s;
+    /*色相を変える*/
+    filter:hue-rotate(-30deg);
+}

@@ -1,0 +1,70 @@
+.sen h1{
+    border-bottom: solid 2px;
+    border-color: #fff;
+    color:#fff;
+    /* 文字の長さに応じてborderの長さが可変 */
+    display: inline-block;
+    width: 1150px;
+}
+main,footer{
+    text-align: center;
+}
+h1,h2,p{
+    color:#fff;
+}
+/* header開始 */
+body{
+    margin:0;
+    background-color:#212E3D;
+    width:100%;
+}
+header{
+    background-color:#E6E9EC;
+    width:100%;
+}
+#rogo{
+    padding:20px 20px;
+    width:168px;
+    height:180;
+
+}
+.header-list table{
+    position:absolute;
+    border-spacing:20px;
+    top:140px;
+    left:280px;
+}
+.siz{
+    width:82px;
+    height:25px;
+}
+#ken{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:23px;
+    right:130px;
+}
+#rogu{
+    widows:60px;
+    height:15px;
+}
+/* header終了 */
+.checkbox_container {
+    display: flex;
+    flex-direction: column;
+}
+.checkboxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    font-size:18px;
+    margin-top:30px;
+}
+.checkboxes label {
+    color: white;
+    width: 200px;
+    text-align: left;
+}
+

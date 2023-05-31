@@ -1,0 +1,84 @@
+body{
+    max-width: 100%;
+    overflow: hidden;
+}
+.btn-menu{
+    position:absolute;
+    right:1rem;
+    top:1rem;
+    z-index:4;
+    padding:.5rem 1rem;
+    border:1px solid #c3bfbf;
+    border-radius:50%;
+    height:4rem;
+    width:4rem;
+    transition:.4s;
+    background-color:#e0dcdc;
+}
+#menu-close{
+    border:1px solid var(--light-green);
+    background-color:#fff;
+
+}
+#menu-panel{
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:4;
+    padding:8rem 2rem 2rem;
+    width:max(32vw,20rem);
+    height:100vh;
+    background-color:#c3bfbf;
+    translate:100vw;
+}
+.menu-list{
+    list-style: none;
+    height:100vh;
+}
+.menu-list li{
+    margin:1.5rem 0;
+}
+.menu-list a{
+    text-decoration:none;
+    font-size:2rem;
+    color:white;
+}
+button{
+    color:white;
+}
+
+img.open-menu{
+    z-index: 5;
+    position:absolute;
+    right: 1rem;
+    height:64px;
+    width:64px;
+}
+
+/* 3本線 */
+#humberger {
+    position: relative;
+    height: 20px;
+    width: 28px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+#humberger div {
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 28px;
+    background-color: #444;
+    border-radius: 2px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+#humberger div:nth-of-type(1) {
+    bottom: 17px;
+}
+#humberger div:nth-of-type(2) {
+    bottom: 7px;
+}
+#humberger div:nth-of-type(3) {
+    bottom: -3px;
+}

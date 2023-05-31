@@ -1,0 +1,74 @@
+main,footer{
+    text-align: center;
+}
+.sen h1{
+    border-bottom: solid 2px;
+    border-color: #fff;
+    /* 文字の長さに応じてborderの長さが可変 */
+    display: inline-block;
+    width: 1400px;
+    color:#fff;
+}
+h1,h2,p,a{
+    color:#fff;
+}
+.btn1 {
+    height: 150px;
+    width: 100%;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.stop, .retry {
+    background-color: pink;
+    border: 1px solid #ff9494;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    margin: 50px 200px;
+}
+#result_text {
+    color:#fff;
+    font-size: 100px;
+}
+
+/* header開始 */
+body{
+    margin:0;
+    background-color:#212E3D;
+    width:100%;
+}
+header{
+    background-color:#E6E9EC;
+    width:100%;
+}
+#rogo{
+    padding:20px 20px;
+    width:168px;
+    height:180;
+
+}
+.header-list table{
+    position:absolute;
+    border-spacing:20px;
+    top:140px;
+    left:280px;
+}
+.siz{
+    width:82px;
+    height:25px;
+}
+#ken{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:23px;
+    right:130px;
+}
+#rogu{
+    widows:60px;
+    height:15px;
+}
+
+/* header終了 */
+

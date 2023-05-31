@@ -1,0 +1,21 @@
+
+.body img{
+    background-image: url('moon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 80%,
+        0 100%
+    );
+}
+
+p{
+    position: absolute;
+    top:20%;
+    left:44%;
+    color:#fff;
+    font-size: 50px;
+}

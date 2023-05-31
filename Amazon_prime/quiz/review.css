@@ -1,0 +1,133 @@
+@charset "utf-8";
+main{
+    text-align: center;
+}
+.review img{
+    height: 300px;
+    width: 550px;
+}
+.review{
+    display: flex;
+    justify-content: center;
+}
+.bunshou{
+    display: inline;
+    justify-content: center;
+}
+.review h1{
+    margin: 60px 60px 0px 100px;
+}
+.btn button p{
+    margin: 0px 0px 0px 0px;
+    font-size:20px;
+}
+button{
+    height: 40px;
+    width: 80px;
+    margin: 20px 0px 0px 830px;
+}
+.sen h1{
+    border-bottom: solid 2px;
+    border-color: #fff;
+    /* 文字の長さに応じてborderの長さが可変 */
+    display: inline-block;
+    width: 1150px;
+}
+/* ここからtext-box（256文字まで）*/
+.box textarea{
+    font-size:30px;
+    height: 40px;
+    max-height: 40px;
+    width: 900px;
+    max-width: 900px;
+    
+}
+.box1 textarea{
+    font-size:30px;
+    height: 300px;
+    max-height: 300px;
+    width: 900px;
+    max-width: 900px;
+}
+.box2 textarea{
+    position: absolute;
+    top:300px;
+    right:100px;
+    font-size:30px;
+    height: 40px;
+    max-height: 40px;
+    width: 600px;
+    max-width: 600px;
+}
+/* header開始 */
+body{
+    margin:0;
+    background-color:#212E3D;
+    width:100%;
+}
+header{
+    background-color:#E6E9EC;
+    width:100%;
+}
+#rogo{
+    padding:20px 20px;
+    width:168px;
+    height:180;
+
+}
+.header-list table{
+    position:absolute;
+    border-spacing:20px;
+    top:140px;
+    left:280px;
+}
+.siz{
+    width:82px;
+    height:25px;
+}
+#ken{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:23px;
+    right:130px;
+}
+#rogu{
+    widows:60px;
+    height:15px;
+}
+
+/* header終了 */
+h1,h2{
+    color: #fff;
+}
+.wpcf7-list-item-label{
+    color:#ffff00;
+}
+/* 星レーティングここから */
+#star {
+    position: relative;
+  }
+  #star .wpcf7-list-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  #star input[type='radio'] {
+    position: absolute;
+    opacity: 0;
+  }
+  #star .wpcf7-list-item-label {
+    color: #ccc;
+    font-size: 180%;
+    letter-spacing: .5em;
+    cursor: pointer;
+  }
+  #star .wpcf7-list-item:hover .wpcf7-list-item-label,
+  #star .wpcf7-list-item:hover ~ .wpcf7-list-item .wpcf7-list-item-label,
+  #star .wpcf7-list-item.checked .wpcf7-list-item-label,
+  #star .wpcf7-list-item.checked ~ .wpcf7-list-item .wpcf7-list-item-label {
+    color: #fc0;
+  
+/* 星レーティングここまで */

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="answer.css">
+    <title>Answer</title>
+</head>
+<body>
+    <header>
+        <div class="header-list">
+            <img src="homu-list/sanple.png" id="rogo">
+            <table>
+                <tr>
+                    <td><a href="http://moviess.starfree.jp/web/movies/movies.html"><img src="homu-list/homu-list.png" class="siz"></a></td>
+                    <td><a href="http://moviess.starfree.jp/web/jyanru/jyanru.html"><img src="homu-list/zyanru-list.png" class="siz"></a></td>
+                    <td><a href="http://moviess.starfree.jp/web/yotei/yotei.html"><img src="homu-list/sukezyuru-list.png" class="siz"></a></td>
+                    <td><a href="http://moviess.starfree.jp/web/mylist/mylist.html"><img src="homu-list/my-list.png" class="siz"></a></td>
+                    <td><a href="http://moviess.starfree.jp/web/quiz/quiz.html"><img src="homu-list/kuizu-list.png" class="siz"></a></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="text" class="text" size="20" maxlength="20"></td>
+                    <td><img src="homu-list/kensaku.png" id="ken"></td>
+                    <td></td>
+                    <td><img src="homu-list/roguin.png" id="rogu"></td>
+                </tr>
+            </table>
+        </div>
+    </header>
+    <main>
+        <div class="sen">
+            <h1>クイズ</h1>
+        </div>
+        <h1>10問中6問正解</h1>
+        <p id="result_text">けっか</p>
+        <div class="btn1">
+            <a class="stop" href="http://moviess.starfree.jp/web/movies/movies.html">もうやめる</a>
+            <a class="retry" href="http://moviess.starfree.jp/web/quiz/quiz.html">まだ続ける</a>
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script>
+        var result_text = document.getElementById('result_text');
+        var number=8;
+        if(number>=8){
+            result_text.innerHTML = "大変よくできました";
+        }else if(number>=7){ 
+            result_text.innerHTML = "よくできました";
+        }else{
+            result_text.innerHTML = "頑張りましょう";
+        }
+    </script>
+</body>
+</html>

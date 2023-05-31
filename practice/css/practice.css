@@ -1,0 +1,76 @@
+@charset "utf-8";
+@media screen and (min-width:320px)and(max-width:780px){
+
+}
+body{
+    font-family: 'Noto Sans JP',"Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    font-size:15px;
+    /* 行間隔 */
+    line-height:1.5;
+    color:#333;
+
+}
+.night{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+}
+.night > strong{
+    position: absolute;
+    top :50%;
+    left:50%;
+    transform: -50%,-50%;
+
+}
+.night > video{
+    width:102%;
+    height:102%;
+    z-index: 1;
+}
+strong{
+    color:#fff;
+    font-size:100px;
+    text-align: center;
+}
+.dummy{
+    width:600px;
+    height:400px;
+}
+
+.section{
+    padding:30px,15px;
+}
+.section.section-secondary{
+    background: #efefef;
+    width:100%;
+    margin:20px;
+}
+.section-headline{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin:0 0 40px;
+}
+.about{
+    margin:0;
+    /* これで画像を横並びにできる */
+    display:flex;
+    padding-left: 20px;
+}
+@media screen and (min-width:320px)and(max-width:780px){
+    .about{
+        display: block;
+    }
+}
+.about-caption{
+    padding-left: 15px;
+}
+.about-headline{
+    margin:0 0 20px;
+    font-size:30px;
+}
+.width,.blog,.google{
+    display: flex;
+}

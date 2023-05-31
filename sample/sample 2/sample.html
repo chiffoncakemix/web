@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="sample.css">
+</head>
+<body>
+  <header>
+    <h1>○○○○shop.com</h1>
+  </header>
+  <main
+    <div class="contents">
+      <!--  -->
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide">Slide 10</div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- ここから本文 -->
+        <u><h1>ここにコメントを入力してください</h1></u>
+          <!-- hrも下線 -->
+      <div class="sample">
+        <img src="sample/sample.jpg">
+        <img src="sample/sample.jpg">
+        <img src="sample/sample.jpg">
+        <img src="sample/sample.jpg">
+        <img src="sample/sample.jpg">
+      </div>
+      <u><h1>ここにコメントを入力してください</h1></u>
+      <div class="sample">
+        <img src="sample/sample.jpg">
+        <img src="sample/sample.jpg">
+        <img src="sample/sample.jpg">
+        <img src="sample/sample.jpg">
+        <img src="sample/sample.jpg">
+      </div>
+      <u><h1>ここにコメントを入力してください</h1></u>
+      <div class="sample">
+        <img src="sample/sample.jpg">
+        <img src="sample/sample.jpg">
+        <img src="sample/sample.jpg">
+        <img src="sample/sample.jpg">
+        <img src="sample/sample.jpg">
+      </div>
+      <u><h1>ここにカテゴリを入力してください</h1></u>
+      <div class="sample">
+        <img src="sample/sample.jpg" >
+        <p class="caption">説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文
+        説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文
+      </p>
+        <img src="sample/sample.jpg">
+        <p class="caption">
+          説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文
+          説明文説明文説明文説明文説明文説明文
+        </p>
+      </div>
+      <div class="sample">
+        <img src="sample/sample.jpg" >
+        <p class="caption">説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文
+          説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文
+        </p>
+        <img src="sample/sample.jpg">
+        <p class="caption">説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文
+          説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文説明文
+        </p>
+      </div>
+      <!-- ここまで -->
+    </div>
+  </main>
+  <footer>
+    <h1>Copyright　○○○○</h1>
+  </footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="../package/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="quiz1.css">
+</head>
+<body>
+        <header>
+            <div class="header-list">
+                <img src="homu-list/sanple.png" id="rogo">
+                <table>
+                    <tr>
+                        <td><a href="http://moviess.starfree.jp/web/movies/movies.html"><img src="homu-list/homu-list.png" class="siz"></a></td>
+                        <td><a href="http://moviess.starfree.jp/web/jyanru/jyanru.html"><img src="homu-list/zyanru-list.png" class="siz"></a></td>
+                        <td><a href="http://moviess.starfree.jp/web/yotei/yotei.html"><img src="homu-list/sukezyuru-list.png" class="siz"></a></td>
+                        <td><a href="http://moviess.starfree.jp/web/mylist/mylist.html"><img src="homu-list/my-list.png" class="siz"></a></td>
+                        <td><a href="http://moviess.starfree.jp/web/quiz/quiz.html"><img src="homu-list/kuizu-list.png" class="siz"></a></td>
+                        <td> </td>
+                        <td> </td>
+                        <td><input type="text" class="text" size="20" maxlength="20"></td>
+                        <td><img src="homu-list/kensaku.png" id="ken"></td>
+                        <td>  </td>
+                        <td><img src="homu-list/roguin.png" id="rogu"></td>
+                    </tr>
+                </table>
+            </div>
+        </header>
+    <main>
+        <div class="sen">
+            <h1>ポケモンクイズ</h1>
+        </div>
+        <div class="iti">
+            <h1>Q1</h1>
+        </div>
+        <h2>ロケット団が負けて吹き飛ばされる時のセリフは</h2>
+        <div class="btn">
+            <button onclick="clickBtn()">やなかんじ〜</button>
+            <button onclick="clickBtn()">サヨナラバイバイ</button>
+            <button onclick="clickBtn()">おぼえてろ〜</button>
+        </div>
+        <div id="pokemon">
+            <h1>答え.『やなかんじ~』</h1>
+            <h2>ロケット団がやられるシーンは様々ですが、ロケット団が</h2>
+            <h2>やられて空にとばされるシーンでいつも「やなかんじ〜」と叫んでいます</h2>
+        </div>
+        <script>
+            var hid = document.getElementById("pokemon").style;
+            hid.visibility = "hidden";
+
+            function clickBtn() {
+                hid.visibility = "visible";
+            }
+        </script>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

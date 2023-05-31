@@ -1,0 +1,65 @@
+main,
+footer{
+    text-align: center;
+}
+.sen h1{
+    border-bottom: solid 2px;
+    border-color: #fff;
+    color:#fff;
+    /* 文字の長さに応じてborderの長さが可変 */
+    display: inline-block;
+    width: 1150px;
+}
+.btn button{
+    height: 60px;
+    width: 1000px;
+    font-size: 35px;
+}
+.iti h1{
+    margin:0px 950px 0px 0px;
+    color:#fff;
+}
+h1,h2,p{
+    color:#fff;
+}
+button{
+    margin:20px;
+}
+/* ここからheader */
+body{
+    margin:0;
+    background-color:#212E3D;
+    width:100%;
+}
+header{
+    background-color:#E6E9EC;
+    width:100%;
+}
+#rogo{
+    padding:20px 20px;
+    width:168px;
+    height:180;
+
+}
+.header-list table{
+    position:absolute;
+    border-spacing:20px;
+    top:140px;
+    left:280px;
+}
+.siz{
+    width:82px;
+    height:25px;
+}
+#ken{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:23px;
+    right:130px;
+}
+#rogu{
+    widows:60px;
+    height:15px;
+}
+/* ここまでheader */

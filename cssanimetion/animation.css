@@ -1,0 +1,42 @@
+@charset "utf-8";
+header{
+    /* 高さ */
+    height:50vh;
+}
+img{
+    width:500px;
+}
+/* fadeIn, fadeUp, fadeLeft, fadeLight, zoomIn, slideIn */
+.animations{
+    animation-name: animations;
+    /* 何秒で動かすか */
+    animation-duration: 2s;
+    /*animation-timing-function: ease;*/
+    /* アニメーションのカウントを何回行うか 1,infinite(永久に) */
+    /*animation-iteration-count:1;*/
+    /* 終わった後初めの場所するのか 最後の場所にするのかなどの設定ができる forwards(最後) */
+    /*animation-fill-mode: forwards;*/
+    /* animationが始まる前はopacityの値は0にしておく */
+    /*opacity: 0;*/
+    /* 何秒後に始まるか
+    animation-delay: 1s;*/
+}
+@keyframes animations{
+    0%{
+        /* XかY ＋か- */
+        /*opacity: 0;*/
+        /*
+        transform: translateX(-600px);
+        */
+
+        /* スケールの場合はだんだん大きくなる */
+        transform:scale(0.6);
+    }
+    100%{
+        /*opacity: 1;*/
+        /*
+        transform: translateX(0px);
+        */
+        transform:scale(1)
+    }
+}

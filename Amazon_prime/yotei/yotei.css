@@ -1,0 +1,105 @@
+
+.sample1 img{
+    text-align: right;    
+    justify-content: center;
+    height: 350px;
+    width: 250px;
+    margin: 10px 10px;
+    list-style: none;  
+    text-align: center;
+}
+.sample1 ul{
+    list-style: none;
+}
+.sample1 ul li {
+    display: flex;
+    justify-content: center;
+}
+.sample1 ul li p {
+    width: 720px;
+    height: auto;
+    line-height: 1.4;
+    
+}
+li img{
+    text-align:left;
+    letter-spacing:7em;    
+}
+main,footer{
+    text-align: center;
+}
+.sample1 ul li h2{
+    text-align: left;
+}
+.sample1 ul li h3{
+    text-align: left;
+}
+.rink a p{
+   
+    flex-direction: row;
+    /* 横方向に並べる */
+    float: left;
+    /* 横幅の間隔PとPを開ける */
+    margin: 20px;
+}
+.rink{
+    display:flex;
+    justify-content: center;
+}
+.sen h2{
+    border-bottom: solid 2px;
+    border-color: #fff;
+    /* 文字の長さに応じてborderの長さが可変 */
+    display: inline-block;
+    width: 1150px;
+}
+button{
+    /* ボタンのカラー */
+    background-color:rgb(1, 242, 250);  
+    border-top: solid 2px #000;
+    height: 40px;
+    width: 40px;
+    /* 左右のマージン（間隔） */
+    margin: 20px;
+}
+h1,h2,h3,p{
+    color:#fff;
+}
+/* header */
+body{
+    margin:0;
+    background-color:#212E3D;
+    width:100%;
+}
+header{
+    background-color:#E6E9EC;
+    width:100%;
+}
+#rogo{
+    padding:20px 20px;
+    width:168px;
+    height:180;
+
+}
+.header-list table{
+    position:absolute;
+    border-spacing:20px;
+    top:140px;
+    left:280px;
+}
+.siz{
+    width:82px;
+    height:25px;
+}
+#ken{
+    position:absolute;
+    width:30px;
+    height:30px;
+    top:23px;
+    right:130px;
+}
+#rogu{
+    widows:60px;
+    height:15px;
+}
+/* ここまで */

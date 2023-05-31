@@ -1,0 +1,201 @@
+.triangle01{
+    width        : 0;
+    height       : 0;
+    border-top   : solid 15px transparent;
+    border-right : solid 15px transparent;
+    border-bottom: solid 15px transparent;
+    border-left  : solid 15px #697b91;
+}
+/* headerここから */
+div.header{
+    align-items: center;
+}
+.header{
+    background-color: #000;
+    color        :#fff;
+    display      :flex;
+    /*text-align   : left;*/
+    margin:auto;
+    padding-left :12.5%;
+    flex-wrap    :wrap;
+    width        :100%;
+    height       :45px;
+    margin-bottom:40px;
+
+}
+header h1{
+    font-size   :26px;
+    margin-left : 15.5%;
+    padding     :15px 0px;
+}
+header p{
+    padding-left:3%;
+}
+/* headerここまで */
+
+/*pickup ここから*/
+#pickup{
+    width    : 80%;
+    flex-wrap: wrap;
+}
+#pickup img{
+    height:210px;
+    width :373px;
+}
+
+div#pickup p{
+    text-align      : left;
+    margin-top      :15px;
+    margin-bottom   :15px;
+}
+div#pickup a{
+    display   :block;
+    text-align: center;
+}
+div
+/*pickup ここまで*/
+
+/* asideここから */
+aside #profile{
+    height:130px;
+    width :130px;
+}
+aside .profile{
+    height:194px;
+    width :345px;
+}
+aside{
+    margin-left:35px;
+    width      :373px;
+}
+aside p{
+    width  :345px;
+    padding:3.5% 2%;
+}
+.Archive p{
+    border-bottom: solid 1px #777;
+}
+.Archive_title p{
+    display      :inline;
+    border-bottom:initial;
+}
+.Archive_title{
+    font-size   :20px;
+    padding-left:35%;
+}
+/* asideここまで */
+
+.pickup{
+    width:373px;
+}
+div#pickup{
+    width :1200px;
+    margin:auto;
+}
+
+body #pickup{
+    display        :flex;
+    flex-wrap      : wrap;
+    justify-content: space-around;
+}
+
+/* mainここから */
+main img{
+    height   :427px;
+    width    :780px;
+    max-width:100%;
+    height   :auto;
+}
+.main h3{
+    /* initial 要素を消す */
+    text-align: initial;
+}
+
+.main{
+    text-align: center;
+    /* text-alignはブロック要素には反映されないため インライン要素に対して宣言してあげる必要がある*/
+    /*margin:0px 0px 0px 16%;*/
+    /* display:inline;
+    text-align:center;はinline要素を中央揃えにする
+    例えばpタグなどをdisplay:inline;でinline要素にしてtext-align:center;をかけ中央揃えにすることはできる ただinline要素はサイズの指定ができないため
+    width:-px;などで指定してもpタグなどの横幅のサイズが変更にならない
+    pタグなどの横幅のサイズを変更したいならブロック要素にサイズの変更をかけてあげる必要がある
+    */
+}
+div.main{
+    width:780px;
+    margin:auto;
+    /*margin:30px;*/
+}
+main h1{
+    font-size    :25px;
+    margin-bottom:30px;
+    margin-top   :30px;
+    text-align   : initial;
+}
+.main h3{
+    margin:0;
+}
+main p{
+    width:759px;
+}
+.main p{
+    /* display:inline-brockはinline要素とブロック要素のいいとこ取り; */
+    display      :inline-block;
+    margin-bottom: 30px;
+}
+    /* aタグの下線を取り除く時やliタグの・を取り除く時に使う
+    text-decoration: none;*/
+/*
+box-shadow: 0 0 8px 4px #ccc;
+boxの周りに影を作って箱っぽくしている
+*/
+/* ここまで */
+
+#container{
+    display:flex;
+}
+div#container{
+    width     :1200px;
+    margin    :auto;
+    margin-top:30px;
+}
+
+div#container p{
+    text-align: justify;
+}
+/* footerここから */
+footer{
+    display         : flex;
+    flex-wrap       :wrap;
+    justify-content : center;
+    background-color: #f7f7f7;
+    width           :100vw;
+    padding-top     :4%;
+    padding-left    :2.5%;
+    margin:auto;
+    padding-bottom: 70px;
+}
+.footer_width{
+    width:1200px;
+}
+.item{
+    padding-left:3%;
+}
+.content{
+    display :flex;
+    width   :80%;
+}
+div.item ul{
+
+    padding-left:0;
+    padding     :10 20px;
+    border-top  : solid 1px #777;
+    width       :380px;
+}
+div.item li{
+    list-style   : none;
+    border-bottom: solid 1px #777;
+    padding      :9px;
+}
+/*footer ここまで*/
